@@ -28,7 +28,7 @@
 ## Информация о валютах
 Что получить дынные по валютам, необходимо выполнить команду:
 ```python manage.py get_values```
-В файле [a link]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/deepxshine/KokocGroup_test/blob/main/crontab_example.txt)) приведен пример contrab команды, котоая запускает команду `python manage.py get_values` каждый день в 7:31
+В[a файле]([https://github.com/deepxshine/KokocGroup_test/blob/main/crontab_example.txt]) приведен пример contrab команды, котоая запускает команду `python manage.py get_values` каждый день в 7:31
 
 
 ## Дополнительный функционал
