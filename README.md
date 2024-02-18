@@ -57,17 +57,28 @@ http://127.0.0.1:8000/rate/?date="date"&charcode="charcode"
 ### Пример
 Запрос:
 http://127.0.0.1:8000/rate/?date=2024-02-17&charcode=AED
+
 Ответ:
 ```{"date": "2024-02-17", "charcode": "AED", "rate": "25.2006"}```
+
 Запрос: 
+
 http://127.0.0.1:8000/rate/?date=2024-02-14&charcode=AED
+
 Ответ
+
 ```{"status": "404 Not Found", "detail": "Данные по вашему запросу не найдены"}```
+
 Запрос:
+
 http://127.0.0.1:8000/rate/?date=2024-16-1&charcode=AED
+
 Ответ:
+
 ```{"status": "500 Internal Server Error", "detail": "Ошибка обработки запроса.Проверьте правильность введенных данных"}```
+
 Для управления данными досутпна admin-панель
+
 http://127.0.0.1:8000/admin/
 
 
