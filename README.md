@@ -51,7 +51,7 @@ celery -A  kokoc_group worker -l info
 ## Описание работы
 На проекте досупен путь c 2 параметрами: date и charcode. 
 
-http://127.0.0.1:8000/rate/?date=<date>&charcode=<charcode>
+http://127.0.0.1:8000/rate/?date="date"&charcode="charcode"
 
 При запросе на этот путь, мы получим данные о курсе указанной валюты по отношению к рублю в указанный день.
 ### Пример
