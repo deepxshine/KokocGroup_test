@@ -36,13 +36,17 @@
 
 Запуск Celery-задачи:
 1) Запуск Redis (Docker)
-   ```docker run -d -p 6379:6379 redis```
-2) Запуск Worker:
+   ```
+   docker run -d -p 6379:6379 redis
+   ```
+3) Запуск Worker:
 ```bash
 celery -A  kokoc_group worker -l info
 ```
 3) Запуск задачи в другом терминале:
-   ```celery -A kokoc_group beat -l info ```
+   ```
+   celery -A kokoc_group beat -l info
+    ```
 
 ## Описание работы
 На проекте досупен путь c 2 параметрами: date и charcode. 
