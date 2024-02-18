@@ -41,7 +41,7 @@
 ```
 3) Запуск Worker:
  ```bash
-celery -A  kokoc_group worker -l info
+  celery -A  kokoc_group worker -l info
 ```
 3) Запуск задачи в другом терминале:
  ```bash
