@@ -36,15 +36,15 @@
 
 Запуск Celery-задачи:
 1) Запуск Redis (Docker)
-   ```
+ ```bash
    docker run -d -p 6379:6379 redis
-   ```
+```
 3) Запуск Worker:
-```bash
+ ```bash
 celery -A  kokoc_group worker -l info
 ```
 3) Запуск задачи в другом терминале:
-   ```
+ ```bash
    celery -A kokoc_group beat -l info
     ```
 
