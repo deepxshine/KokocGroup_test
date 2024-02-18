@@ -46,7 +46,7 @@ celery -A  kokoc_group worker -l info
 3) Запуск задачи в другом терминале:
  ```bash
    celery -A kokoc_group beat -l info
-    ```
+ ```
 
 ## Описание работы
 На проекте досупен путь c 2 параметрами: date и charcode. 
