@@ -1,1 +1,1 @@
-31 7 * * * d python manage.py get_values
+31 7 * * * python manage.py get_values
