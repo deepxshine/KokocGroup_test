@@ -18,5 +18,5 @@ def index(request):
                                                           False})
     return JsonResponse(data={
         'status': '404 Not Found',
-        'detail': ('Данные по вашему запросу не найлены')
+        'detail': ('Данные по вашему запросу не найдены')
     }, json_dumps_params={'ensure_ascii': False})
